@@ -6,11 +6,160 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="author" content="Vinceto" />
     <meta name="description" content="Prueba Viajes Chile" />
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet" />
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous" />
     <!-- Custom CSS -->
     <link rel="stylesheet" href="assets/css/style.css" />
     <title>Viajes Chile</title>
   </head>
   <body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-transparent px-2">
+      <div class="container">
+        <a class="navbar-brand" href="#"><img src="assets/img/viajes.svg" width="30" height="30" class="d-inline-block align-top" alt="logo-avion" loading="lazy" />Viajes Chile</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link" href="#inicio">Inicio</a></li>
+            <li class="nav-item"><a class="nav-link" href="#quienes">Quiénes Somos</a></li>
+            <li class="nav-item"><a class="nav-link" href="#destacados">Destacados</a></li>
+            <li class="nav-item"><a class="nav-link" href="#contacto">Contacto</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- header con carousel -->
+    <header id="inicio">
+      <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active"><img src="assets/img/carousel1.jpg" class="d-block w-100" alt="carousel1" /></div>
+          <div class="carousel-item"><img src="assets/img/carousel2.jpg" class="d-block w-100" alt="carousel2" /></div>
+          <div class="carousel-item"><img src="assets/img/carousel3.jpg" class="d-block w-100" alt="carousel3" /></div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev"><span class="carousel-control-prev-icon" aria-hidden="true"></span><span class="visually-hidden">Previous</span></button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next"><span class="carousel-control-next-icon" aria-hidden="true"></span><span class="visually-hidden">Next</span></button>
+      </div>
+    </header>
+    <!-- seccion quienes somos -->
+    <section class="pt-5 d-none d-md-block bg-dark" id="quienes">
+      <div class="container">
+        <div class="mx-md-5">
+          <h4 class="text-center mx-3 mx-md-5 mb-4">¿Quiénes somos?</h4>
+          <hr class="bg-info mb-4" />
+        </div>
+        <div class="row pt-3 ">
+          <div class="col-md-4">
+            <div class="text-center bg-info py-3"><i class="fas fa-plane fa-3x"></i></div>
+            <p class="px-3">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem iure nostrum suscipit dolores quis ipsam magni vitae dolor adipisci in! Libero ipsa, omnis quis vitae quo ducimus! Quam, saepe culpa. Repellendus laboriosam corporis ad iusto ipsam doloremque. Labore veniam unde iure consectetur? Explicabo, voluptatibus commodi sed, quod debitis magni laboriosam unde voluptas error laborum nemo animi assumenda, repellendus quis enim. Ipsam exercitationem quod maxime aliquid laudantium, explicabo eligendi tempora dolores labore sit excepturi dolorem consequuntur voluptatem? Quasi, fugit magnam. Eos dolores dolorem earum a. Quae culpa quia omnis vero autem.</p>
+          </div>
+          <div class="col-md-4">
+            <p class="px-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium quis optio eligendi quae delectus quam, voluptatem laboriosam nam tenetur nisi fugit placeat voluptas quia et aperiam quasi dolores at necessitatibus? Nisi temporibus accusamus animi tempora sunt sapiente ex, vero quasi perferendis recusandae. Consequuntur quod delectus adipisci. Fugit quasi dolorem sed et obcaecati perspiciatis exercitationem culpa, alias nemo a repudiandae molestias! Cupiditate, neque nostrum expedita sed dolore perferendis minus enim velit natus, corrupti possimus dolorum placeat delectus ducimus eligendi laborum omnis eaque nemo. Perferendis quod in delectus sint eos repellendus quia.</p>
+            <div class="text-center bg-info py-3"><i class="fas fa-mountain fa-3x"></i></div>
+          </div>
+          <div class="col-md-4">
+            <div class="text-center bg-info py-3"><i class="fas fa-route fa-3x"></i></div>
+            <p class="px-3">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias, debitis nostrum nesciunt voluptatem itaque eos maxime molestiae commodi minima dolor minus ratione optio consequatur assumenda officia. Excepturi architecto maiores vitae. Eaque maiores odit impedit neque, dicta suscipit atque omnis quos, architecto sit culpa quo explicabo sequi molestiae quisquam officiis labore dolore. Magnam saepe odit esse! At tempore fugit doloribus molestias. Suscipit dolorum minima error aut ipsa quia atque, voluptatum commodi delectus itaque cupiditate quis nostrum laboriosam deleniti soluta, sunt harum? Repudiandae velit amet cumque iure adipisci molestias quam dolore doloribus?</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- seccion de destacados -->
+    <section class="pt-5 bg-dark" id="destacados">
+      <div class="mx-md-5">
+        <h4 class="text-center mx-3 mx-md-5 mb-4">Destacados</h4>
+        <hr class="bg-info mb-4" />
+      </div>
+      <div class="container">
+        <div class="row row-cols-1 row-cols-md-4 g-4">
+          <div class="col mb-4">
+            <div class="card h-100">
+              <img src="assets/img/card1.jpg" class="card-img-top" alt="card1" />
+              <div class="card-body bg-info">
+                <h5 class="card-title">Lorem ipsum dolor sit amet</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col mb-4">
+            <div class="card h-100">
+              <img src="assets/img/card2.jpg" class="card-img-top" alt="card2" />
+              <div class="card-body bg-info">
+                <h5 class="card-title">Consectetur adipisicing elit</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col mb-4">
+            <div class="card h-100">
+              <img src="assets/img/card3.jpg" class="card-img-top" alt="card3" />
+              <div class="card-body bg-info">
+                <h5 class="card-title">Sed do eiusmod tempor incididunt ut labore</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col mb-4">
+            <div class="card h-100">
+              <img src="assets/img/card4.jpg" class="card-img-top" alt="card4" />
+              <div class="card-body bg-info">
+                <h5 class="card-title">Ut enim ad minim veniam</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- seccion de contacto -->
+    <section class="bg-dark py-5" id="contacto">
+      <div class="mx-md-5">
+        <h4 class="text-center mx-3 mx-md-5 mb-4">Contacto</h4>
+        <hr class="bg-info mb-4" />
 
+        <form class="container">
+          <div class="mb-3">
+            <label class="form-label">Nombre</label>
+            <input type="text" class="form-control" aria-describedby="emailHelp" />
+          </div>
+          <div class="mb-3">
+            <label class="form-label">Asunto</label>
+            <input type="text" class="form-control" aria-describedby="emailHelp" />
+          </div>
+          <div class="mb-3">
+            <label class="form-label">Mensaje</label>
+            <textarea class="form-control" rows="8"></textarea>
+          </div>
+          <button type="submit" class="btn btn-info text-white">Enviar</button>
+        </form>
+      </div>
+    </section>
+    <!-- footer con logos de redes sociales -->
+    <footer class="container-fluid text-center text-white bg-info py-4">
+      <div class="row align-items-center">
+        <div class="col-md-6 mb-3 mb-md-0">
+          <h3 class="text-uppercase mb-0">Viajes Chile</h3>
+        </div>
+        <div class="col-md-6">
+          <i class="fab fa-github-square fa-2x mx-2" data-bs-toggle="tooltip" data-bs-placement="top" title="GitHub"></i>
+          <i class="fab fa-linkedin fa-2x mx-2" data-bs-toggle="tooltip" data-bs-placement="top" title="LinkedIn"></i>
+          <i class="fab fa-twitter-square fa-2x mx-2" data-bs-toggle="tooltip" data-bs-placement="top" title="Twitter"></i>
+          <i class="fab fa-facebook-square fa-2x mx-2" data-bs-toggle="tooltip" data-bs-placement="top" title="Facebook"></i>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Bootstrap JS Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+
+    <!-- jquery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- Custom JS -->
+    <script src="assets/js/script.js"></script>
   </body>
 </html>
