@@ -1,0 +1,17 @@
+body {
+  font-family: "Raleway", sans-serif;
+  color: #fff;
+}
+h4 {
+  text-transform: uppercase;
+}
+.card img {
+  max-height: 100px;
+}
+.carousel-item img {
+  max-height: 100vh;
+}
+/* efecto de transicion suave al color de fondo */
+.navbar.bg-scroll {
+  transition: background-color 0.3s ease-in-out;
+}
